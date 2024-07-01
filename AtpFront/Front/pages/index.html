@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <script src="../script/Usuario.js" defer></script>
+</head>
+<body>
+    
+    <header> 
+        
+        <div class="logo">
+            <h1>Faça login para continuar</h1>
+        </div>
+    </header>
+
+    <form method="get" class = "contact-form">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+            </form>
+
+            <button type="submit" onclick="Login()">Enviar</button>
+
+            <div style="
+            display: flex;
+            justify-content: center;
+            padding-top: 8px;">
+                <a href="../pages/cadastro.html">Cadastre-se</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
